@@ -247,7 +247,7 @@ async def main():
     await e.add_objects()
     await e.init_objects()
     await e.init_and_query_chromadb()
-    await e.init_and_query_es()
+    # await e.init_and_query_es()
 
 
 if __name__ == "__main__":
